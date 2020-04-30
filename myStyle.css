@@ -1,0 +1,207 @@
+/* navigation bar on top*/
+#nav-bar {
+	list-style-type: none; /* removes bullet point*/
+	margin: 0; /* removes bullet point*/
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #303338;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+/* items of navigation bar*/
+.nav-items {
+	float: left;
+	border-right: 1px solid black; <!-- comment -->
+}
+
+/* styling of different links of navigation bar*/
+.nav-links-active, .nav-links {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* styling in case of hovering*/
+.nav-links:hover,.nav-links-active:hover {
+	background-color: #ebeff2;
+	color: black;
+}
+
+/* styling of active links*/
+.nav-links-active {
+	background-color: #751568;
+}
+
+/* slides */
+.slides {
+	box-sizing: border-box;
+	background-color: #c3d3d4;
+	opacity: 0.8;
+}
+/* text in slides*/
+.slides p {
+	margin: 0;
+	padding: 35px;
+	text-align: center;
+	font: monospace;
+	font-size: 50px; 
+	color: black;
+	opacity: 0.5;
+}
+
+/* footer on each page*/
+.footer {
+	height: 30vh;
+	background-color: #080c14;
+	padding: 35px;
+	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 50px; 
+	color: white;
+}
+
+/* Home */
+
+/*intro slide*/
+.slide-1-home {
+	height: 100vh; /* viewport height */
+}
+
+/*milkyway slide*/
+.slide-2-home {
+	opacity: 1.0;
+	height: 100vh; /* viewport height */
+	background-image: url('Resources/milkyway2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Academics*/
+
+/*academics intro slide*/
+.slide-1-acad {
+	height: 100vh;
+	margin: 0;
+}
+
+/* Resume */
+
+/*intro slide*/
+.slide-2-acad {
+	height: 20vh;
+	margin: 0;
+}
+
+/*resume slide*/
+.slide-2-acad p {
+	font-size: 40px;
+	text-align: center;
+}
+
+/*iitd image slide*/
+.slide-3-acad {
+	opacity: 1.0;
+	height: 100vh; /* viewport height */
+	background-image: url('Resources/iit-delhi.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*courses*/
+.slide-4-acad {
+	height: 100vh; /* viewport height */
+}
+
+/*courses text styling*/
+.slide-4-acad p, .slide-4-acad li {
+	list-style-type: none;
+	font-size: 30px;
+	margin: 0;
+	padding: 35px;
+	text-align: center;
+	font: monospace;
+	color: black;
+	opacity: 0.5;
+}
+.slide-4-acad li {
+	float: left;
+}
+
+/*acad acheivements*/
+.slide-5-acad {
+	height: 80vh; /* viewport height */
+}
+
+/*courses text styling*/
+.slide-5-acad p, .slide-5-acad li {
+	list-style-type: none;
+	font-size: 30px;
+	margin: 0;
+	padding: 35px;
+	text-align: center;
+	font: monospace;
+	color: black;
+	opacity: 0.5;
+}
+.slide-5-acad li {
+	float: left;
+}
+
+/*CP*/
+
+/* cp intro slide*/
+.slide-1-cp {
+	height: 100vh;
+	margin: 0;
+}
+
+/*codeforces slide*/
+.slide-2-cp {
+	height: 60vh; /* viewport height */
+}
+
+/*codechef slide*/
+.slide-3-cp {
+	height: 60vh; /* viewport height */
+}
+
+/*text on cc and cf slides*/
+.slide-2-cp p, .slide-3-cp p {
+	font-size: 20px;
+	color: black;
+	opacity: 1.0;
+	text-align: center;
+}
+
+/*About*/
+.slide-0-about {
+	height: 20vh; /* viewport height */
+}
+.slide-1-about {
+	opacity: 1.0;
+	height: 100vh; /* viewport height */
+	background-image: url('Resources/arsh.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slide-2-about {
+	opacity: 1.0;
+	height: 200vh; /* viewport height */
+	background-image: url('Resources/arsh2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide-3-about {
+	opacity: 1.0;
+	height: 200vh; /* viewport height */
+	background-image: url('Resources/arsh3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
